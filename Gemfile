@@ -12,6 +12,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
 #react js
+gem 'react-rails'
 gem 'responders'
 
 group :development, :test do
