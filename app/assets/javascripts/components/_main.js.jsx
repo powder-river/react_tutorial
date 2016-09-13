@@ -1,7 +1,10 @@
 var Main = React.createClass({
   render(){
     return(
-      <Header/>
+      <div>
+        <Header/>
+        <Body/>
+      </div>
     )
   }
 });
