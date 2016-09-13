@@ -1,0 +1,36 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+ */
+@import "bourbon/bourbon";
+@import "neat/neat";
+@import "base/base";
+
+
+.item{
+  margin-top: 50px;
+}
+.deletebtn{
+  margin-left: 5px;
+}
+.col-6{
+  @include span-columns(6);
+}
+.col-12{
+  @include span-columns(12);
+}
+
+
+// .potato{
+//   background-color: green ;
+// }
