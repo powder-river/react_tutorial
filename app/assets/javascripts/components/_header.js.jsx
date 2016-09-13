@@ -1,8 +1,8 @@
 var Header = React.createClass({
   render(){
     return(
-      <div>
-        <h1>Hello World!</h1>
+      <div class="page-header">
+        <h1>React JS Example</h1>
       </div>
     )
   }

@@ -14,6 +14,7 @@ gem 'jbuilder', '~> 2.5'
 #react js
 gem 'react-rails'
 gem 'responders'
+gem 'bootstrap-sass'
 
 group :development, :test do
   gem 'byebug', platform: :mri
